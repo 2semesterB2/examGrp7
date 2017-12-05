@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {background-image: url(../img/background_index.jpg);
-background: no-repeat;}
+	background-repeat:no-repeat;}
 
 .button {
     background-color: #000000;
