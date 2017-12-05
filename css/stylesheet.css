@@ -2,7 +2,7 @@
 /* CSS Document */
 .button {
     background-color: #000000;
-	opacity: 30%;
+	opacity: 0.5;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -10,4 +10,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+	radius: 50px;
+	border-radius: 50px;
+	border-radius: 50px;
+	border-radius: 50px;
 }
