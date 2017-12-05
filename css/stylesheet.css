@@ -1,17 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
+body {background-image: url(../img/background_index.jpg)}
+
 .button {
     background-color: #000000;
-	opacity: 0.5;
-    border: none;
+	opacity: 0.8;
     color: white;
-    padding: 15px 32px;
+    padding: 1% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-	radius: 50px;
+    font-size: 3em;
 	border-radius: 50px;
-	border-radius: 50px;
-	border-radius: 50px;
+	border: 2px solid #FFFFFF;
+	margin-left: 45%;
+	margin-top: 20%;
+}
+.button:hover {
+    background-color: #3B9387;
 }
