@@ -5,13 +5,16 @@ body {background-image: url(../img/background_index.jpg);
 
 .player-group button {
     background-color: #34B0CA; /* Green background */
-    border: 1px solid black; /* Green border */
+    border: 5px solid black; /* Green border */
     color: black; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
 	font-size: 100px;
 	width: 40%;
+	margin-left: 35%;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
 	
 }
 
@@ -35,5 +38,6 @@ body {background-image: url(../img/background_index.jpg);
 .choose-players{
 	text-align: center;
 	color: white;
+	font-size: 2em;
 	
 }
