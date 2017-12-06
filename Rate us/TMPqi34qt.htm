@@ -3,9 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Rate Us</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css">	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="javascript.js"></script>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     
@@ -23,11 +21,7 @@
         <div class="total_votes">vote data</div>
     </div>
 </div>
-# New Object
-$rating = new ratings($_POST['widget_id']);
- 
-# either return ratings, or process a vote
-isset($_POST['fetch']) ? $rating->get_ratings() : $rating->vote();
+
 </body>
     
     

@@ -58,6 +58,27 @@ h1 { text-align: center;
     margin: 0 auto 40px auto;
     width: 180px;
 }
-
+   {
+            "widget_id"     : "r1",
+            "number_votes"  : 129,
+            "total_points"  : 344,
+            "dec_avg"       : 2.7,
+            "whole_avg"     : 3
+        }
+class ratings {
+     
+    private $data_file = './ratings.data.txt';
+    private $widget_id;
+    private $data = array();
+        
+function __construct($wid) {
+     
+    $this->widget_id = $wid;
+ 
+    $all = file_get_contents($this->data_file);
+     
+    if($all) {
+        $this->data = unserialize($all);
+    }
 
     
