@@ -9,14 +9,9 @@
     
 <h1>  RATE US  </h1>
     
-    <img src=
-    
-    <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
-    
-
     <a href="#" >   <button id="menu" class="button button2"> MENU </button></a>
-    <div class='movie_choice'>
-    Rate: Raiders of the Lost Ark
+    <div class="movie_choice">
+    Rate this game
     <div id="r1" class="rate_widget">
         <div class="star_1 ratings_stars"></div>
         <div class="star_2 ratings_stars"></div>
@@ -26,19 +21,7 @@
         <div class="total_votes">vote data</div>
     </div>
 </div>
- 
-<div class='movie_choice'>
-    Rate: The Hunt for Red October
-    <div id="r2" class="rate_widget">
-        <div class="star_1 ratings_stars"></div>
-        <div class="star_2 ratings_stars"></div>
-        <div class="star_3 ratings_stars"></div>
-        <div class="star_4 ratings_stars"></div>
-        <div class="star_5 ratings_stars"></div>
-        <div class="total_votes">vote data</div>
-    </div>
-</div>
-    
+
 </body>
     
     
