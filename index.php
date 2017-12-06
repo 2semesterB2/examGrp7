@@ -16,14 +16,7 @@
 </head>
 <body>
 <a class="button" class="btn-link" href="Game/Game.html">Start</a>
-<div id="contact">
-    Contact me!
-</div>
-<a href="#" id="toggle">Contact</a>
-	
 
-	
-	<div class="box"></div>
 
 </body>
 </html>
