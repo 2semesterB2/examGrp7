@@ -5,15 +5,8 @@ body {
 	background-image: url(../img/background_index.jpg);
 	background-repeat:no-repeat;
 
-}
-.layer{
-	background-color: white;
-	opacity: 0.8;
-	width: 100%;
-	height: 100%;
-	
+}	
 
-}
 
 .player-group button {
     background-color: #34B0CA; /* Green background */
@@ -49,8 +42,15 @@ body {
 
 .choose-players{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 2em;
 	
 }
-#wrapper { background-color: azure;}
+#wrapper { background-color: white;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	position:absolute;
+
+	
+}
