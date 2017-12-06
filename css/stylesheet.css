@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {background-image: url(../img/background_index.jpg);
-	background-repeat:no-repeat;}
+	background-repeat:no-repeat; font-family: roboto;}
 
 .button {
     background-color: #000000;
