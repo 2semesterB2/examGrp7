@@ -28,3 +28,11 @@ a:hover {
   text-decoration: none;}
 a:active {
   text-decoration: none;}
+
+#contact
+{
+    display: none;
+    background: grey;
+    color: #FFF;
+    padding: 10px;
+}
