@@ -11,16 +11,15 @@
 	<body>
 	<div id="wrapper"> </div>
 
-<div class="choose-players">
-<h1> exp 1 </h1>
+<div class="text">
+<h1> Press the green color</h1>
 	</div>
 <div class="player-group">
   <a button href="../ingame/ingame.php">3</a>
  <a button href="../ingame/ingame.php">4</a>
   <a button href="../ingame/ingame.php">5</a>
  <a button href="../ingame/ingame.php">6</a>
- <a button href="../ingame/ingame.php">7</a>
- <a button href="../ingame/ingame.php">8</a>
+
 </div>
 	
 
