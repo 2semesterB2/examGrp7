@@ -12,10 +12,13 @@
 <h1>  RATE US  </h1>
     
 	
-	<div class="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+<div id="rating">
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
 </div>
-	
 	
 	
 <a href="#"> </a><button class="button button2">Next</button>
