@@ -11,10 +11,9 @@ body{
     border: 2px solid black;
     color: black;
     float: left;
-	font-size: 2100%;
-	width: 49.7%;
+	font-size: 2105%;
+	width: 49%;
 	text-align: center;
-	height: 30%;
 }
 #player-group {}
 a:link { 
@@ -25,7 +24,6 @@ a:hover {
   text-decoration: none;}
 a:active {
   text-decoration: none;}
-
 
 .text{
  background-color: #fff;
