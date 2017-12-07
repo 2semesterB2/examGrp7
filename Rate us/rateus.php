@@ -11,7 +11,6 @@
 <body>
     
 <h1>  RATE US  </h1>
-    
 	
 <div class="stars">
   <form action="">
@@ -32,5 +31,5 @@
     
     
     
-    <!-- wurzer,E., 2010, Building a 5 Star Rating System With jQuery, AJAX and PHP, [Online] Kan findes på: <https://code.tutsplus.com/tutorials/building-a-5-star-rating-system-with-jquery-ajax-and-php--net-11541> [Tilgået 6. December 2017]. -->
+    <!-- https://codepen.io/kanduvisla/pen/NqdbZP -->
 </html>
