@@ -27,8 +27,16 @@ a:active {
   text-decoration: none;}
 
 .text{
-	text-align: center;
-	color: #34B0CA;
-	font-size: 1.3em;
+	background-color: #FFFFFF;
+	opacity: 0.9;
+    color:aqua;
+    padding: 0.5% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 103%;
+	border-radius: 50px;
+	border: 2px solid #FFFFFF;
+	margin-left: 34%;
 	
 }
