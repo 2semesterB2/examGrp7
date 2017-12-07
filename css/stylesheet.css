@@ -4,9 +4,9 @@ body {background-image: url(../img/background_index.jpg);
 	background-size:cover;}
 
 .button {
-    background-color: #000000;
+    background-color: #FFFFFF;
 	opacity: 0.8;
-    color: white;
+    color:aqua;
     padding: 0.5% 4%;
     text-align: center;
     text-decoration: none;
