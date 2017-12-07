@@ -10,8 +10,8 @@ body{
     border: 2px solid black;
     color: black;
     float: left;
-	font-size: 15em;
-	width: 49%;
+	font-size: 2100%;
+	width: 49.7%;
 	text-align: center;
 	height: 30%;
 }
@@ -27,8 +27,16 @@ a:active {
 
 
 .text{
-	text-align: center;
-	color: #34B0CA;
-	font-size: 2em;
+ background-color: #fff;
+	opacity: 0.9;
+    color: aqua;
+    padding: 0.5% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 107%;
+	border-radius: 50px;
+	border: 2px solid #000000;
+	margin-left: 37%;
 	
 }
