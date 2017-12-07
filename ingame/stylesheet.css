@@ -3,6 +3,7 @@
 body{
 	background-image: url(../img/background_index.jpg);
 	background-repeat:no-repeat;
+	background-size:cover;
 
 }
 #player-group a {
