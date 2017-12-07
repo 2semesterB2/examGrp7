@@ -1,17 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	background-image: url(../img/background_index.jpg);
+	background-repeat:no-repeat;
 
-.color-group {
-    background-color: #000000;
-	opacity: 0.8;
-    color: white;
-    padding: 0.5% 4%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 4em;
-	border-radius: 50px;
-	border: 2px solid #FFFFFF;
-	margin-left: 42%;
-	margin-top: 20%;
 }
+.color-group {
+   background-color: #34B0CA;
+    border: 5px solid black;
+    color: black;
+    padding: 10px 24px;
+    float: left;
+	font-size: 100px;
+	width: 40%;
+	margin-left: 30%;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
+	text-align: center;
+	
+}
+a:link { 
+  text-decoration: none;}
+a:visited {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+a:active {
+  text-decoration: none;}
