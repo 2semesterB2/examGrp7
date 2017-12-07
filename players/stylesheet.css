@@ -10,13 +10,12 @@ body {
 
 .player-group a {
     background-color: #34B0CA;
-    border: 5px solid black;
+    border: 2px solid black;
     color: black;
-    padding: 10px 24px;
+    padding: 2% 1.35%;
     float: left;
-	font-size: 100px;
-	width: 40%;
-	margin-left: 30%;
+	font-size: 2000%;
+	width: 46.6%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
 	text-align: center;
