@@ -11,8 +11,8 @@ body{
     border: 2px solid black;
     color: black;
     float: left;
-	font-size: 1600%;
-	width: 49%;
+	font-size: 2250%;
+	width: 49.7%;
 	text-align: center;
 	height: 30%;
 }
@@ -29,6 +29,6 @@ a:active {
 .text{
 	text-align: center;
 	color: #34B0CA;
-	font-size: 2em;
+	font-size: 1.3em;
 	
 }
