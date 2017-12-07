@@ -8,7 +8,7 @@ body {
 }	
 
 
-.player-group button {
+.player-group a {
     background-color: #34B0CA; /* Green background */
     border: 5px solid black; /* Green border */
     color: black; /* White text */
@@ -22,7 +22,14 @@ body {
 	margin-bottom: 2.5%;
 	
 }
-
+a:link { 
+  text-decoration: none;}
+a:visited {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+a:active {
+  text-decoration: none;}
 
 .choose-players{
 	text-align: center;
