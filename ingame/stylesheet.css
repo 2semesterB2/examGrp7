@@ -27,6 +27,7 @@ a:active {
 
 .text{
  background-color: #fff;
+	float: left;
 	opacity: 0.9;
     color: aqua;
     padding: 0.5% 4%;
@@ -36,6 +37,7 @@ a:active {
     font-size: 107%;
 	border-radius: 50px;
 	border: 2px solid #000000;
-	margin-left: 37%;
+	width: 50%;
+	margin-left: 20%;
 	
 }
