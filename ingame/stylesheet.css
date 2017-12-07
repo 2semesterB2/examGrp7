@@ -12,11 +12,11 @@ body{
     padding: 10px 24px;
     float: left;
 	font-size: 20em;
-	width: 40%;
+	width: 46.8%;
 	text-align: center;
 	height: 30%;
 }
-#player-group {margin-left: 15%;}
+#player-group {}
 a:link { 
   text-decoration: none;}
 a:visited {
