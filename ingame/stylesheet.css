@@ -3,7 +3,6 @@
 body{
 	background-image: url(../img/background_index.jpg);
 	background-repeat:no-repeat;
-	background-size:cover;
 
 }
 #player-group a {
@@ -11,8 +10,8 @@ body{
     border: 2px solid black;
     color: black;
     float: left;
-	font-size: 2250%;
-	width: 49.7%;
+	font-size: 15em;
+	width: 49%;
 	text-align: center;
 	height: 30%;
 }
@@ -28,16 +27,8 @@ a:active {
 
 
 .text{
-	background-color: #FFFFFF;
-	opacity: 0.9;
-    color:aqua;
-    padding: 0.5% 4%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 103%;
-	border-radius: 50px;
-	border: 2px solid #FFFFFF;
-	margin-left: 34%;
+	text-align: center;
+	color: #34B0CA;
+	font-size: 2em;
 	
 }

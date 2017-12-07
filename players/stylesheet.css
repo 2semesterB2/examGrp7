@@ -4,7 +4,7 @@ body {
 	
 	background-image: url(../img/background_index.jpg);
 	background-repeat:no-repeat;
-	background-size:cover;
+
 }	
 
 
@@ -30,6 +30,7 @@ a:hover {
   text-decoration: none;}
 a:active {
   text-decoration: none;}
+
 
 .choose-players{
 	text-align: center;
