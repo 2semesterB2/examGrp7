@@ -10,7 +10,8 @@
 </head>
 <body>
     
-<h1>  RATE US  </h1>
+	<div class="h1">
+	 <h1>  RATE US  </h1> </div>
 	
 <div class="stars">
   <form action="">
