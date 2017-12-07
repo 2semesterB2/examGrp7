@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+.color-group {
+    background-color: #000000;
+	opacity: 0.8;
+    color: white;
+    padding: 0.5% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4em;
+	border-radius: 50px;
+	border: 2px solid #FFFFFF;
+	margin-left: 42%;
+	margin-top: 20%;
+}
