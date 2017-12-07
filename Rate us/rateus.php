@@ -11,24 +11,14 @@
     
 <h1>  RATE US  </h1>
     
-    <a href="#" >   <button id="menu" class="button button2"> MENU </button></a>
-    <div class="movie_choice">
-    Rate this game
-    <div id="r1" class="rate_widget">
-        <div class="star_1 ratings_stars"></div>
-        <div class="star_2 ratings_stars"></div>
-        <div class="star_3 ratings_stars"></div>
-        <div class="star_4 ratings_stars"></div>
-        <div class="star_5 ratings_stars"></div>
-        <div class="total_votes">vote data</div>
-    </div>
+	
+	<div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 </div>
-# New Object
-$rating = new ratings($_POST['widget_id']);
- 
-# either return ratings, or process a vote
-isset($_POST['fetch']) ? $rating->get_ratings() : $rating->vote();
-</body>
+	
+	
+	
+<a href="#"> </a><button class="button button2">Next</button>
     
     
     
