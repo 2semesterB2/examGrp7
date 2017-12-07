@@ -5,8 +5,8 @@ body{
 	background-repeat:no-repeat;
 
 }
-.color-group {
-   background-color: #34B0CA;
+.player-group a {
+    background-color: #34B0CA;
     border: 5px solid black;
     color: black;
     padding: 10px 24px;
@@ -27,3 +27,10 @@ a:hover {
   text-decoration: none;}
 a:active {
   text-decoration: none;}
+
+.choose-players{
+	text-align: center;
+	color: #34B0CA;
+	font-size: 2em;
+	
+}
