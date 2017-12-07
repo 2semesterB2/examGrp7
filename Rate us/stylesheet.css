@@ -13,12 +13,12 @@ body {background-image: url(../img/background_index.jpg);
 .button {
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 40% 48%;
+    font-size:2em;
+    margin: 30% 48%;
     cursor: pointer;
 }
 .button2 {background-color: #34b0ca;} /* Blue */

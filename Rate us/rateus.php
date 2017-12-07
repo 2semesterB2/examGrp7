@@ -28,7 +28,7 @@
   </form>
 </div>
 	
-<a href="#"> </a> <button class="button button2">Next</button>
+<a href="#"> </a> <button class="button button2">Return to start</button>
     
     
     
