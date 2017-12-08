@@ -9,7 +9,7 @@ body {
 }	
 
 
-.player-group a {
+.player-group button {
     background-color: #34B0CA;
     border: 5px solid black;
     color: black;
@@ -20,17 +20,8 @@ body {
 	margin-left: 14%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
-	text-align: center;
-	
+	text-align: center;	
 }
-a:link { 
-  text-decoration: none;}
-a:visited {
-  text-decoration: none;}
-a:hover {
-  text-decoration: none;}
-a:active {
-  text-decoration: none;}
 
 
 .choose-players{
