@@ -30,7 +30,6 @@
 	
 <a href="#"> </a> <button class="button button2">Return to start</button>
     
-    
-    
+	</body>  
     <!-- https://codepen.io/kanduvisla/pen/NqdbZP -->
 </html>

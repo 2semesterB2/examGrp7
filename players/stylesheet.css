@@ -39,6 +39,8 @@ a:active {
 	font-size: 2em;
 	
 }
+#rateus {display: none;}
+#game {display: none;}
 /*#wrapper { background-color: white;
 	opacity: 0.5;
 	height: 110%;
