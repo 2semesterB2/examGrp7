@@ -1,3 +1,7 @@
 // JavaScript Document
-var playeramount = "3";
-document.getElementById("3pl").innerHTML = playeramount;
+var playernumber=3;
+if (playernumber<=0) {
+	for (i = 0; i < 5; i++)
+	
+}
+
