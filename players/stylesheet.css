@@ -22,7 +22,7 @@ body {
 	margin-bottom: 2.5%;
 	text-align: center;	
 }
-.player-group2 button {
+#player-group2 a{
     background-color: #34B0CA;
     border: 5px solid black;
     color: black;
@@ -44,7 +44,7 @@ body {
 	
 }
 #rateus {display: none;}
-#game {display: none;}
+#game {display: block;}
 /*#wrapper { background-color: white;
 	opacity: 0.5;
 	height: 110%;
