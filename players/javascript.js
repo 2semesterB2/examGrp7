@@ -5,45 +5,38 @@
 		
 //}
 
-var nummer3farve=0;
 var farvearray=['red','green','yellow','blue'];
-var nummer4farve=0;
-var farvearray2=['green','yellow','blue','red'];
-var nummer5farve=0;
-var farvearray3=['yellow','blue','red','green'];
-var nummer6farve=0;
-var farvearray4=['blue','red','green','yellow'];
 
 var nummer3=setInterval(function(){
-	$('#3').css('background-color', farvearray[nummer3farve]);
-	nummer3farve=nummer3farve+1;
-	if(nummer3farve>3){
-		nummer3farve=0;
+	$('#3').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
 	}
-},200);
+,200);
+$('#3').click(function(){
+clearInterval(nummer3)
+			  });
 
 
 var nummer4=setInterval(function(){
-	$('#4').css('background-color', farvearray2[nummer4farve]);
-	nummer4farve=nummer4farve+1;
-	if(nummer4farve>3){
-		nummer4farve=0;
-	}
+	$('#4').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
+	
 },200);
+$('#4').click(function(){
+clearInterval(nummer4)
+			  });
 
 var nummer5=setInterval(function(){
-	$('#5').css('background-color', farvearray3[nummer5farve]);
-	nummer5farve=nummer5farve+1;
-	if(nummer5farve>3){
-		nummer5farve=0;
-	}
+	$('#5').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
+	
 },200);
+$('#5').click(function(){
+clearInterval(nummer5)
+			  });
 
 var nummer6=setInterval(function(){
-	$('#6').css('background-color', farvearray4[nummer6farve]);
-	nummer6farve=nummer6farve+1;
-	if(nummer6farve>3){
-		nummer6farve=0;
-	}
+$('#6').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
+	
 },200);
+$('#6').click(function(){
+clearInterval(nummer6)
+			  });
 
