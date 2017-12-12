@@ -29,7 +29,7 @@ var nummer4=setInterval(function(){
 },2000);
 $('#4').click(function(){
 clearInterval(nummer4);
-	if($('#4').css('background-color')==='rgb(255,0,0)'){
+	if($('#4').css('background-color')=='rgb(255,0,0)'){
 		score=score+1;
 		
 		alert("re");
