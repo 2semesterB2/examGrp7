@@ -17,10 +17,6 @@ $('#3').click(function(){
 clearInterval(nummer3)
 
 			  });
-$('#3','#4','#5', '#6').click(function(){
-antalklik=antalklik+1;
-if (antalklik>3) .hide('#game');
-});
 
 var nummer4=setInterval(function(){
 	$('#4').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);//https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
