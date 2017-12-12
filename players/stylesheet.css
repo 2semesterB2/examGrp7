@@ -23,17 +23,15 @@ body {
 	text-align: center;	
 }
 #player-group2 a{
+	
     background-color: #34B0CA;
-    border: 5px solid black;
+    border: 2px solid black;
     color: black;
-    padding: 10px 24px;
     float: left;
-	font-size: 10em;
-	width: 70%;
-	margin-left: 14%;
-	margin-top:2.5%;
-	margin-bottom: 2.5%;
-	text-align: center;	
+	font-size: 2105%;
+	width: 49%;
+	text-align: center;
+	text-decoration: none;
 }
 
 
@@ -43,16 +41,7 @@ body {
 	font-size: 2em;
 	
 }
+#players {display: none;}
 #rateus {display: none;}
 #game {display: block;}
-/*#wrapper { background-color: white;
-	opacity: 0.5;
-	height: 110%;
-	width: 110%;
-	position:absolute;
-	margin-top: -4%;
-	margin-left: -1%;
-	
-
-	
-}
+.text {display: none;}
