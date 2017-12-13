@@ -15,6 +15,8 @@ var nummer3=setInterval(function(){
 ,1000);
 $('#3').click(function(){
 clearInterval(nummer3);
+	if($('#3').css('background-color')=='rgb(255, 0, 0)'){
+		score=score+1;}
 antalklik=antalklik+1;
 	$('#3').off('click');
 	if(antalklik>3){
@@ -33,8 +35,6 @@ clearInterval(nummer4);
 //	if($('#4').css('background-color')=='rgb(255,0,0)'){      GAMMEL LINIE
 		//  vi havde ikke llagt mærke til at der var spaces efter kommaerne da vi kiggede på outputtet fra nummer 5
 		score=score+1;
-		
-		alert("re");
 	};
 	antalklik=antalklik+1;
 	$('#4').off('click');
@@ -48,7 +48,8 @@ var nummer5=setInterval(function(){
 },1000);
 $('#5').click(function(){
 clearInterval(nummer5);
-	alert($('#5').css('background-color'));
+	if($('#5').css('background-color')=='rgb(255, 0, 0)'){
+		score=score+1;}
 
 	antalklik=antalklik+1;
 $('#5').off('click');
@@ -66,6 +67,8 @@ $('#6').css('background-color',farvearray[Math.floor(Math.random() * farvearray.
 },1000);
 $('#6').click(function(){
 clearInterval(nummer6);
+	if($('#6').css('background-color')=='rgb(255, 0, 0)'){
+		score=score+1;}
 	antalklik=antalklik+1;
 $('#6').off('click');
 	if(antalklik>3){
