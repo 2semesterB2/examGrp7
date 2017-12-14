@@ -75,21 +75,29 @@ $('#6').off('click');
 		alert(' Your Score: ' +score);
 	}  });
 
-document.getElementById('3').value=3;
-console.log(document.getElementById('3').value);
+document.getElementById('3pl').value=3;
+console.log(document.getElementById('3pl').value);
 
-document.getElementById('4').value=4;
-console.log(document.getElementById('4').value);
+document.getElementById('4pl').value=4;
+console.log(document.getElementById('4pl').value);
 
-document.getElementById('5').value=5;
-console.log(document.getElementById('5').value);
+document.getElementById('5pl').value=5;
+console.log(document.getElementById('5pl').value);
 
-document.getElementById('6').value=6;
-console.log(document.getElementById('6').value);
+document.getElementById('6pl').value=6;
+console.log(document.getElementById('6pl').value);
 
-document.getElementById('7').value=7;
-console.log(document.getElementById('7').value);
+document.getElementById('7pl').value=7;
+console.log(document.getElementById('7pl').value);
 
-document.getElementById('8').value=8;
-console.log(document.getElementById('8').value);
+document.getElementById('8pl').value=8;
+console.log(document.getElementById('8pl').value);
 
+$(function () {
+  $("#game, #rateus").hide();
+/* knapper der skjuler "players og rateus"
+			samt viser "ingame" */ 
+  $("#3pl, #4pl, #5pl, #6pl, #7pl, #8pl,").bind("click", function () {
+    $("#players, ").hide();
+  });
+});

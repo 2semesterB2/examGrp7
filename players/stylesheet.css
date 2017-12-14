@@ -9,7 +9,7 @@ body {
 }	
 
 
-.player-group button {
+#player-group button {
     background-color: #34B0CA;
     border: 5px solid black;
     color: black;
@@ -41,7 +41,3 @@ body {
 	font-size: 2em;
 	
 }
-#players {display: none;}
-#rateus {display: none;}
-#game {display: block;}
-.text {display: none;}
