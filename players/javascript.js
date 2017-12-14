@@ -33,7 +33,7 @@ $('#4').click(function(){
 clearInterval(nummer4);
 	if($('#4').css('background-color')=='rgb(255, 0, 0)'){
 //	if($('#4').css('background-color')=='rgb(255,0,0)'){      GAMMEL LINIE
-		//  vi havde ikke llagt mærke til at der var spaces efter kommaerne da vi kiggede på outputtet fra nummer 5
+		//  vi havde ikke lagt mærke til at der var spaces efter kommaerne da vi kiggede på outputtet fra nummer 5
 		score=score+1;
 	};
 	antalklik=antalklik+1;
