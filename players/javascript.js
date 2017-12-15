@@ -8,7 +8,9 @@
 var farvearray=['rgb(255,0,0)','green','yellow','blue'];
 var antalklik=0;
 var score=0;
-	
+
+
+
 var nummer3=setInterval(function(){
 	$('#3').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
 	}
@@ -101,7 +103,15 @@ $('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
 $.click(function () {
   $("#game, #rateus").hide();
 });
+
+
+
+ //Bind the click event for the login button
+   $("#signin").bind("click", function() { alert("test"); });
 */
-$('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
-    $("#players").hide();
+
+$('#3pl,#4pl,#5pl,#6pl,#7pl,#8pl').click(function(){
+    	
+	$("#players").hide();
+	
   });
