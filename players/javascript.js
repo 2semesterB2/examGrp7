@@ -93,11 +93,15 @@ console.log(document.getElementById('7pl').value);
 document.getElementById('8pl').value=8;
 console.log(document.getElementById('8pl').value);
 
+/* stilet i css
+$('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
+    $("#players").css('display')=='none';
+  });
+  en funktion der gemmer eleenterne (i stedet for css)
 $.click(function () {
   $("#game, #rateus").hide();
 });
-/* knapper der skjuler "players og rateus"
-			samt viser "ingame" */ 
+*/
 $('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
     $("#players").hide();
   });
