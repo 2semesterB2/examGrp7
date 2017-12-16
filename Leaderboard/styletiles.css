@@ -12,28 +12,28 @@ h1 {
     
 }
 
-p#green {
-    color: green;
+p#player1 {
+    color: white;
 	font-size: 30px;
 }
 
-p#yellow {
+p#player2 {
     
-    color: yellow;
-	font-size: 30px;
-}
-
-
-p#blue {
-    
-    color: blue;
+    color: white;
 	font-size: 30px;
 }
 
 
-p#red {
+p#player3 {
     
-    color: red;
+    color: white;
+	font-size: 30px;
+}
+
+
+p#player4 {
+    
+    color: white;
 	font-size: 30px;
 }
 
