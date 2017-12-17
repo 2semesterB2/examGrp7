@@ -15,12 +15,14 @@ h1 {
 p#player1 {
     color: white;
 	font-size: 30px;
+	background: #34B0CA;
 }
 
 p#player2 {
     
     color: white;
 	font-size: 30px;
+	background: #34B0CA;
 }
 
 
@@ -28,6 +30,7 @@ p#player3 {
     
     color: white;
 	font-size: 30px;
+	background: #34B0CA;
 }
 
 
@@ -35,16 +38,42 @@ p#player4 {
     
     color: white;
 	font-size: 30px;
+	background: #34B0CA;
 }
 
 
+p#player5 {
+    
+    color: white;
+	font-size: 30px;
+	background: #34B0CA;
+}
+p#player6 {
+    
+    color: white;
+	font-size: 30px;
+	background: #34B0CA;
+}
+p#player7 {
+    
+    color: white;
+	font-size: 30px;
+	background: #34B0CA;
+}
+p#player8 {
+    
+    color: white;
+	font-size: 30px;
+	background: #34B0CA;
+}
 color{
     
     width: 50%;
 	font-size: 30px;
+	background: #34B0CA;
 }
 
-leader{
+#leader{
 	
 	text-align: center;
 	

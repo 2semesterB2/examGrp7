@@ -26,6 +26,20 @@
 <p id="player4">    
    Player four:
     </p>
+<p id="player5">    
+   Player five:
+    </p>
+<p id="player6">    
+   Player six:
+    </p>	
+<p id="player7">    
+   Player seven:
+    </p>
+<p id="player8">    
+   Player eight:
+    </p>
+
+
 	</div>	
 	
 	
