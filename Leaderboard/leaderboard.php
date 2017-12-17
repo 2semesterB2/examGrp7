@@ -38,8 +38,8 @@
 <p id="player8">    
    Player eight:
     </p>
-
 	
+	<button class="button">Next</button>
 
 	</div>	
 	
