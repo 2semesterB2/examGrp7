@@ -7,6 +7,7 @@
 
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var playernumber=0;
+var spillerscore=0;
 	
 document.getElementById('pl3').value=3;
 document.getElementById('pl4').value=4;
@@ -67,6 +68,7 @@ clearInterval(nummer4);
 	$('#4').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
+			return score;
 	}  });
 
 var nummer5=setInterval(function(){
@@ -82,10 +84,11 @@ clearInterval(nummer5);
 $('#5').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
+			return score;
 		
 	}  });
 
-// hvis css er blå +1 score
+
 
 			 
 
@@ -101,6 +104,7 @@ clearInterval(nummer6);
 $('#6').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
+			return score;
 	}  });
 
 	
