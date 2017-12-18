@@ -78,22 +78,16 @@ $('#6').off('click');
 	}  });
 
 document.getElementById('3pl').value=3;
-console.log(document.getElementById('3pl').value);
 
 document.getElementById('4pl').value=4;
-console.log(document.getElementById('4pl').value);
 
 document.getElementById('5pl').value=5;
-console.log(document.getElementById('5pl').value);
 
 document.getElementById('6pl').value=6;
-console.log(document.getElementById('6pl').value);
 
 document.getElementById('7pl').value=7;
-console.log(document.getElementById('7pl').value);
 
 document.getElementById('8pl').value=8;
-console.log(document.getElementById('8pl').value);
 
 /* stilet i css
 $('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
@@ -113,5 +107,24 @@ $.click(function () {
 $('#3pl,#4pl,#5pl,#6pl,#7pl,#8pl').click(function(){
     	
 	$("#players").hide();
+	/* var playernumber.this value. 
+	efter loop playernumber -1 
+	if playernumber < 1, #game.hide #leaderboard.show eller goto leaderboard.php 
+	
+	gammel 
+	var playernumber er knappen der er trykket på (antal spillere.)
+den skal vide hvilken knap vi trykker på. (har en value, burde virke) 
+
+i loopet. 
+når igennenm
+PlAYERNUMBER -1
+ if playernummer < 1 
+.show leaderboard 
+
+Antal gange det skal spilles. 
+
+alert ved variabel playernumber. efter der er trykket på knappen. 
+
+	*/
 	
   });
