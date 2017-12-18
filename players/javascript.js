@@ -37,11 +37,11 @@ function næstespiller(sc){
 	playernumber=playernumber-1;
 	if (playernumber==0){
 	$('#game').hide();
-	$('#leaderboard').show();
+	$('#leader').show();
 		//alert('slut');
 		
 	} else {
-setTimeout(function() { $("#game").hide(); }, 5000);
+//setTimeout(function() { $("#game").hide(); }, 5000);
 		enspiller();
 	}
 }
