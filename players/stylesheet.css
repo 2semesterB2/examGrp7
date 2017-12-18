@@ -160,10 +160,11 @@ p#player8 {
 	margin-left: 45%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
+	display: none;
 	
 	
 }
-#button-next{
+#buttonNext{
 	background-color: #4CAF50;
     border: none;
     color: white;
@@ -175,6 +176,7 @@ p#player8 {
 	margin-left: 45%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
+	display: none;
 }
 
 

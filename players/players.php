@@ -91,8 +91,10 @@
 	<button id="leader-button">Next</button>
 
 	</section>
-<button id="button-next">You scored:<br>Next players turn
+	<section  id="buttonNext">
+<button>You scored:<br>Next players turn
  </button>
+ </section>
 	
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -41,8 +41,10 @@ function næstespiller(sc){
 		//alert('slut');
 		
 	} else {
-		$('#players').fadeIn(3000);
-		$('#players').fadeOut(3000);
+		$('#game').fadeOut(3000);
+		$('#buttonNext').fadeIn(3000);
+		$('#buttonNext').fadeOut(3000);
+		$('#game').fadeIn(3000);
 //setTimeout(function() { $("#game").hide(); }, 5000);
 		enspiller();
 	}
