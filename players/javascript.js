@@ -6,11 +6,35 @@
 //}
 
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
+var playernumber=0;
+	
+document.getElementById('pl3').value=3;
+document.getElementById('pl4').value=4;
+document.getElementById('pl5').value=5;
+document.getElementById('pl6').value=6;
+document.getElementById('pl7').value=7;
+document.getElementById('pl8').value=8;
+
+$('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
+    	
+	$("#players").hide();
+	$("#text").show();
+	playernumber=this.value;
+	alert(playernumber);
+  });
+
+
+for (i=0; i<playernumber; i++){
+	
+	spillerscore[i]=enspiller();
+	
+}
+
+alert(spillerscore[2]);
+
+function enspiller(aktueltnr){
 var antalklik=0;
 var score=0;
-
-
-
 var nummer3=setInterval(function(){
 	$('#3').css('background-color',farvearray[Math.floor(Math.random() * farvearray.length)]);
 	}
@@ -23,6 +47,7 @@ antalklik=antalklik+1;
 	$('#3').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
+		return score;
 	}
 		
 			  });
@@ -57,6 +82,7 @@ clearInterval(nummer5);
 $('#5').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
+		
 	}  });
 
 // hvis css er blå +1 score
@@ -77,17 +103,8 @@ $('#6').off('click');
 		alert(' Your Score: ' +score);
 	}  });
 
-document.getElementById('pl3').value=3;
-
-document.getElementById('pl4').value=4;
-
-document.getElementById('pl5').value=5;
-
-document.getElementById('pl6').value=6;
-
-document.getElementById('pl7').value=7;
-
-document.getElementById('pl8').value=8;
+	
+}
 
 /* stilet i css
 $('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
@@ -104,11 +121,6 @@ $.click(function () {
    $("#signin").bind("click", function() { alert("test"); });
 */
 
-$('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
-    	
-	$("#players").hide();
-	$("#text").show();
-  });
 /* var playernumber.this value. 
 	efter loop playernumber -1 
 	if playernumber < 1, #game.hide #leaderboard.show eller goto leaderboard.php 
