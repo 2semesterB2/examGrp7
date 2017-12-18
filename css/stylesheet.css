@@ -1,7 +1,10 @@
 @charset "utf-8";
 body {background-image: url(../img/background_index.jpg);
-	background-repeat:no-repeat; font-family: roboto;
-background-size:cover;}
+	font-family: roboto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 .button {
     background-color:aqua;

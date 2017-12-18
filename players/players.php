@@ -53,7 +53,7 @@
  <button id="4">4</button>
   <button id="5">5</button>
  <button id="6">6</button>
-<div class="text">
+<div id="text">
 <h1> Press the green color</h1>
 	<h2> 5/5 tries left </h2>
 	</div>
