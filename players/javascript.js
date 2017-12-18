@@ -8,6 +8,10 @@
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var playernumber=0;
 var spillerscore=0;
+/*
+efter loop, skal playernumber minusses med 1. 
+
+*/
 	
 document.getElementById('pl3').value=3;
 document.getElementById('pl4').value=4;
@@ -21,19 +25,27 @@ $('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
 	$("#players").hide();
 	$("#text").show();
 	playernumber=this.value;
-	alert(playernumber);
+	enspiller();
   });
-
-
-for (i=0; i<playernumber; i++){
-	
-	spillerscore[i]=enspiller();
-	
+/*
+onclick sætte det i gang
+funktion næste spiller sæt spillet i gang igen
+*/
+function næstespiller(sc){
+	console.log(playernumber+"næstespill");
+	spillerscore[playernumber]=sc;
+	playernumber=playernumber-1;
+	if (playernumber==0){
+		alert('slut');
+		
+	} else {
+		enspiller();
+	}
 }
 
-alert(spillerscore[2]);
 
 function enspiller(aktueltnr){
+	console.log(playernumber);
 var antalklik=0;
 var score=0;
 var nummer3=setInterval(function(){
@@ -48,7 +60,7 @@ antalklik=antalklik+1;
 	$('#3').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
-		return score;
+		næstespiller(score);
 	}
 		
 			  });
@@ -68,7 +80,7 @@ clearInterval(nummer4);
 	$('#4').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
-			return score;
+		næstespiller(score);
 	}  });
 
 var nummer5=setInterval(function(){
@@ -84,7 +96,7 @@ clearInterval(nummer5);
 $('#5').off('click');
 	if(antalklik>3){
 		alert(' Your Score: ' +score);
-			return score;
+		næstespiller(score);
 		
 	}  });
 
@@ -103,10 +115,10 @@ clearInterval(nummer6);
 	antalklik=antalklik+1;
 $('#6').off('click');
 	if(antalklik>3){
-		alert(' Your Score: ' +score);
-			return score;
+		console.log(' Your Score: ' +score);
+		næstespiller(score);
 	}  });
-
+return;
 	
 }
 
