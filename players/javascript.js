@@ -44,7 +44,6 @@ function næstespiller(sc){
 	if (playernumber==0){
 		$('#game').hide();
 		$('#leader').show();
-		//alert('slut');
 		console.log('pnpnpn'+huskPlayernumber+'wwwwwwwwww');
 		for(i=1; i<(huskPlayernumber); i++){
 			$('#leader').append('<p>Player '+(i)+': '+spillerscore[i]+' points</p>');
