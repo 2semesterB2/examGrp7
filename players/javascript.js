@@ -36,9 +36,12 @@ function næstespiller(sc){
 	spillerscore[playernumber]=sc;
 	playernumber=playernumber-1;
 	if (playernumber==0){
-		alert('slut');
+	$('#game').hide();
+	$('#leaderboard').show();
+		//alert('slut');
 		
 	} else {
+setTimeout(function() { $("#game").hide(); }, 5000);
 		enspiller();
 	}
 }
@@ -59,7 +62,7 @@ clearInterval(nummer3);
 antalklik=antalklik+1;
 	$('#3').off('click');
 	if(antalklik>3){
-		alert(' Your Score: ' +score);
+		console.log(' Your Score: ' +score);
 		næstespiller(score);
 	}
 		
@@ -79,7 +82,7 @@ clearInterval(nummer4);
 	antalklik=antalklik+1;
 	$('#4').off('click');
 	if(antalklik>3){
-		alert(' Your Score: ' +score);
+		console.log(' Your Score: ' +score);
 		næstespiller(score);
 	}  });
 
@@ -95,7 +98,7 @@ clearInterval(nummer5);
 	antalklik=antalklik+1;
 $('#5').off('click');
 	if(antalklik>3){
-		alert(' Your Score: ' +score);
+		console.log(' Your Score: ' +score);
 		næstespiller(score);
 		
 	}  });
