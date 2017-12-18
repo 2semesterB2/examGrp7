@@ -4,7 +4,6 @@
 	//for (i = 0; i < 5; i++)
 		
 //}
-
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var playernumber=0;
 var spillerscore=[0,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -28,7 +27,7 @@ document.getElementById('pl8').value=8;
 $('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
     	
 	$("#players").hide();
-	$("#text").show();
+	$("#game").show();
 	playernumber=this.value;
 	huskPlayernumber=Number(playernumber)+1;
 	enspiller();
