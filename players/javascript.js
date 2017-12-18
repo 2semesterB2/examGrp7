@@ -5,7 +5,7 @@
 		
 //}
 
-var farvearray=['rgb(255,0,0)','green','yellow','blue'];
+var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var antalklik=0;
 var score=0;
 
@@ -17,7 +17,7 @@ var nummer3=setInterval(function(){
 ,1000);
 $('#3').click(function(){
 clearInterval(nummer3);
-	if($('#3').css('background-color')=='rgb(255, 0, 0)'){
+	if($('#3').css('background-color')=='rgb(0, 128, 0)'){
 		score=score+1;}
 antalklik=antalklik+1;
 	$('#3').off('click');
@@ -33,7 +33,7 @@ var nummer4=setInterval(function(){
 },1000);
 $('#4').click(function(){
 clearInterval(nummer4);
-	if($('#4').css('background-color')=='rgb(255, 0, 0)'){
+	if($('#4').css('background-color')=='rgb(0, 128, 0)'){
 //	if($('#4').css('background-color')=='rgb(255,0,0)'){      GAMMEL LINIE
 		//  vi havde ikke lagt mærke til at der var spaces efter kommaerne da vi kiggede på outputtet fra nummer 5
 		score=score+1;
@@ -50,7 +50,7 @@ var nummer5=setInterval(function(){
 },1000);
 $('#5').click(function(){
 clearInterval(nummer5);
-	if($('#5').css('background-color')=='rgb(255, 0, 0)'){
+	if($('#5').css('background-color')=='rgb(0, 128, 0)'){
 		score=score+1;}
 
 	antalklik=antalklik+1;
@@ -69,7 +69,7 @@ $('#6').css('background-color',farvearray[Math.floor(Math.random() * farvearray.
 },1000);
 $('#6').click(function(){
 clearInterval(nummer6);
-	if($('#6').css('background-color')=='rgb(255, 0, 0)'){
+	if($('#6').css('background-color')=='rgb(0, 128, 0)'){
 		score=score+1;}
 	antalklik=antalklik+1;
 $('#6').off('click');
@@ -77,17 +77,17 @@ $('#6').off('click');
 		alert(' Your Score: ' +score);
 	}  });
 
-document.getElementById('3pl').value=3;
+document.getElementById('pl3').value=3;
 
-document.getElementById('4pl').value=4;
+document.getElementById('pl4').value=4;
 
-document.getElementById('5pl').value=5;
+document.getElementById('pl5').value=5;
 
-document.getElementById('6pl').value=6;
+document.getElementById('pl6').value=6;
 
-document.getElementById('7pl').value=7;
+document.getElementById('pl7').value=7;
 
-document.getElementById('8pl').value=8;
+document.getElementById('pl8').value=8;
 
 /* stilet i css
 $('#3pl, #4pl, #5pl, #6pl, #7pl, #8pl, ').click(function(){
@@ -104,10 +104,12 @@ $.click(function () {
    $("#signin").bind("click", function() { alert("test"); });
 */
 
-$('#3pl,#4pl,#5pl,#6pl,#7pl,#8pl').click(function(){
+$('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
     	
 	$("#players").hide();
-	/* var playernumber.this value. 
+	$("#text").show();
+  });
+/* var playernumber.this value. 
 	efter loop playernumber -1 
 	if playernumber < 1, #game.hide #leaderboard.show eller goto leaderboard.php 
 	
@@ -126,5 +128,3 @@ Antal gange det skal spilles.
 alert ved variabel playernumber. efter der er trykket på knappen. 
 
 	*/
-	
-  });

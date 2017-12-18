@@ -13,12 +13,12 @@
 <h1> Choose numbers of players</h1>
 	</div>
 <div id="player-group">
-  <button id="3pl">3</button>
- <button id="4pl">4</button>
-  <button id="5pl">5</button>
- <button id="6pl">6</button>
- <button id="7pl">7</button>
- <button id="8pl">8</button>
+  <button id="pl3">3</button>
+ <button id="pl4">4</button>
+  <button id="pl5">5</button>
+ <button id="pl6">6</button>
+ <button id="pl7">7</button>
+ <button id="pl8">8</button>
 </div>
 	</section>
 <p id="nextturn">Next players turn</p>
@@ -47,16 +47,16 @@
 			</section>
 	<section id="game">
 
-<div class="text">
-<h1> Press the green color</h1>
-	<h2> 5/5 tries left </h2>
-	</div>
+
 <div id="player-group2">
   <button id="3">3</button>
  <button id="4">4</button>
   <button id="5">5</button>
  <button id="6">6</button>
-
+<div class="text">
+<h1> Press the green color</h1>
+	<h2> 5/5 tries left </h2>
+	</div>
 </div>
 	</section>
 	

@@ -28,10 +28,11 @@ body {
     border: 2px solid black;
     color: black;
     float: left;
-	font-size: 2105%;
+	font-size: 2000%;
 	width: 49%;
 	text-align: center;
 	text-decoration: none;
+	text-indent: -9999px;
 }
 
 
@@ -47,4 +48,5 @@ display:none;}
 #players {display: block;}
 #rateus {display: none;}
 #game {display: block;}
-.text {display: none;}
+.text {display: none;
+}
