@@ -59,7 +59,7 @@ display:none;
 
 #players {display: block;}
 #rateus {display: none;}
-#game {display: block;}
+#game {display: none;}
 #text {display: none;}
 #leader{
 	display: none;
