@@ -7,7 +7,8 @@
 
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var playernumber=0;
-var spillerscore=0;
+var spillerscore=[0,0,0,0,0,0,0,0,0,0,0,0,0];
+var huskPlayernumber=0;
 $('#nextTurn').click(function(){
 	$('#buttonNext').hide();
 	$('#game').show();
@@ -29,6 +30,7 @@ $('#pl3,#pl4,#pl5,#pl6,#pl7,#pl8').click(function(){
 	$("#players").hide();
 	$("#text").show();
 	playernumber=this.value;
+	huskPlayernumber=Number(playernumber)+1;
 	enspiller();
   });
 /*
@@ -36,15 +38,22 @@ onclick sætte det i gang
 funktion næste spiller sæt spillet i gang igen
 */
 function næstespiller(sc){
-	console.log(playernumber+"næstespill");
+	console.log(playernumber+"næstespill"+huskPlayernumber+'******');
 	spillerscore[playernumber]=sc;
 	playernumber=playernumber-1;
 	if (playernumber==0){
-	$('#game').hide();
-	$('#leader').show();
+		$('#game').hide();
+		$('#leader').show();
 		//alert('slut');
+		console.log('pnpnpn'+huskPlayernumber+'wwwwwwwwww');
+		for(i=1; i<(huskPlayernumber); i++){
+			$('#leader').append('<p>Player '+(i)+': '+spillerscore[i]+' points</p>');
+			
+		}
+		
 		
 	} else {
+		$('#visScore').html(sc);	
 		$('#game').hide();
 		$('#buttonNext').show();
 		

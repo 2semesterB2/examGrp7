@@ -63,36 +63,13 @@
 	
     <h1>Leaderboard list </h1>
 	
-<p id="player1">    
-   Player one:
-    </p>
-<p id="player2">    
-   Player two:
-    </p>
-<p id="player3">    
-   Player three:
-    </p>
-<p id="player4">    
-   Player four:
-    </p>
-<p id="player5">    
-   Player five:
-    </p>
-<p id="player6">    
-   Player six:
-    </p>	
-<p id="player7">    
-   Player seven:
-    </p>
-<p id="player8">    
-   Player eight:
-    </p>
+
 	
 	<button id="leader-button">Next</button>
 
 	</section>
 	<section  id="buttonNext">
-<button id="nextTurn">You scored:<br>Next players turn
+<button id="nextTurn">You scored:<span id="visScore">0</span><br>Next players turn
  </button>
  </section>
 	
