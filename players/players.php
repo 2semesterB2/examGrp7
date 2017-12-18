@@ -26,7 +26,7 @@
 	
 	<section id="rateus">
 <div class="h1">
-	 <h1>  RATE US  </h1> </div>
+	 <h1 id="Leader-line">  RATE US  </h1> </div>
 	
 <div id="stars">
   <form action="">
@@ -59,6 +59,39 @@
 	</div>
 </div>
 	</section>
+	<section id="leader">
+	
+    <h1>Leaderboard list </h1>
+	
+<p id="player1">    
+   Player one:
+    </p>
+<p id="player2">    
+   Player two:
+    </p>
+<p id="player3">    
+   Player three:
+    </p>
+<p id="player4">    
+   Player four:
+    </p>
+<p id="player5">    
+   Player five:
+    </p>
+<p id="player6">    
+   Player six:
+    </p>	
+<p id="player7">    
+   Player seven:
+    </p>
+<p id="player8">    
+   Player eight:
+    </p>
+	
+	<button id="leader-button">Next</button>
+
+	</section>
+
 	
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
