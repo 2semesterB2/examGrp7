@@ -92,7 +92,7 @@
 
 	</section>
 	<section  id="buttonNext">
-<button>You scored:<br>Next players turn
+<button id="nextTurn">You scored:<br>Next players turn
  </button>
  </section>
 	

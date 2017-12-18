@@ -8,6 +8,6 @@
 <script src="Js/javascript.js"></script>
 </head>
 <body>
-<a class="button" class="btn-link" href="Players/players.html">Start</a>
+<a class="button" class="btn-link" href="players/players.php">Start</a>
 </body>
 </html>

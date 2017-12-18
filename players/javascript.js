@@ -8,6 +8,10 @@
 var farvearray=['rgb(255,0,0)','rgb(0, 128, 0)','yellow','blue'];
 var playernumber=0;
 var spillerscore=0;
+$('#nextTurn').click(function(){
+	$('#buttonNext').hide();
+	$('#game').show();
+});
 /*
 efter loop, skal playernumber minusses med 1. 
 
@@ -41,10 +45,9 @@ function næstespiller(sc){
 		//alert('slut');
 		
 	} else {
-		$('#game').fadeOut(3000);
-		$('#buttonNext').fadeIn(3000);
-		$('#buttonNext').fadeOut(3000);
-		$('#game').fadeIn(3000);
+		$('#game').hide();
+		$('#buttonNext').show();
+		
 //setTimeout(function() { $("#game").hide(); }, 5000);
 		enspiller();
 	}
