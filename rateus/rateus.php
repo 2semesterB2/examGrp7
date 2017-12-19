@@ -17,6 +17,7 @@
 Sisson,T., 2017, [Online] PHP mail() Function Code to Send Emails from a Form. Kan finde på: 
 <https://www.inmotionhosting.com/support/website/sending-email-from-site/using-the-php-mail-function-to-send-emails> [Tilgået 19. December 2017]
 -->
+	<section id="sendmail">
 	<?php
 //if "email" variable is filled out, send email
   if (isset($_REQUEST['email']))  {
@@ -43,14 +44,15 @@ Sisson,T., 2017, [Online] PHP mail() Function Code to Send Emails from a Form. K
 
   kommentarer:
 
-  <textarea name="comment" rows="15" cols="40"></textarea>
+  <textarea name="comment" rows="6" cols="40"></textarea>
 
-  <input type="submit" value="Submit" />
+  <input type="submit" value="Submit" id="knap" />
   </form>
   
 <?php
   }
 ?>
+		</section>
 <!-- 
 <div class="stars">
   <form action="collect.php" method="post">

@@ -72,5 +72,25 @@ label.star:before {
     margin: 4px 2px;
 	margin-left: 45%;
 	margin-top:2.5%;
-	margin-bottom: 2.5%;
+	margin-bottom: 10%;
 	display: block; }
+#knap {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+	margin-left: 45%;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
+	display: block; 
+}
+#sendmail {
+	color: white;
+	margin-left: 20%;
+	width: 60%;
+	font-size: 1.7em;
+}
