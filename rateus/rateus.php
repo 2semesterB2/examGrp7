@@ -13,15 +13,47 @@
 	<div class="h1">
 	 <h1>  RATE US  </h1> </div>
 <button id="playagain" onclick="window.location.href='../players/players.php'">Play again</button>	
-			<form action="collect.php" method="post">
-				<Textarea Cols="50" Rows="8" id="oprTekst" name="question"></textarea> 
-				<br>
-				<br>
-				<input type="submit"  id="newAsked"  value="Send">
-			</form>
-		</article>
+<!--
+Sisson,T., 2017, [Online] PHP mail() Function Code to Send Emails from a Form. Kan finde på: 
+<https://www.inmotionhosting.com/support/website/sending-email-from-site/using-the-php-mail-function-to-send-emails> [Tilgået 19. December 2017]
+-->
+	<?php
+//if "email" variable is filled out, send email
+  if (isset($_REQUEST['email']))  {
+  
+  //Email information
+  $admin_email = "jonesfrahgs@gmail.com";
+  $email = $_REQUEST['email'];
+  $comment = $_REQUEST['comment'];
+  
+  //send email
+  mail($admin_email, "$subject", $comment, "From:" . $email);
+  
+  //Email response
+  echo "Thank you for contacting us!";
+  }
+  
+  //if "email" variable is not filled out, display the form
+  else  {
+?>
+
+ <form method="post">
+
+  Email: <input name="email" type="text" />
+
+  kommentarer:
+
+  <textarea name="comment" rows="15" cols="40"></textarea>
+
+  <input type="submit" value="Submit" />
+  </form>
+  
+<?php
+  }
+?>
+<!-- 
 <div class="stars">
-  <form action="">
+  <form action="collect.php" method="post">
     <input class="star star-5" id="star-5" type="radio" name="star"/>
     <label class="star star-5" for="star-5"></label>
     <input class="star star-4" id="star-4" type="radio" name="star"/>
@@ -32,9 +64,10 @@
     <label class="star star-2" for="star-2"></label>
     <input class="star star-1" id="star-1" type="radio" name="star"/>
     <label class="star star-1" for="star-1"></label>
+	<input type="submit" value="send"/>
   </form>
 </div>
-	
+	-->
 <a href="#"> </a> <button class="button button2">Return to start</button>
     
 	</body>  
