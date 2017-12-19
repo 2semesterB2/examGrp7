@@ -6,6 +6,7 @@ body {
 	background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
+	min-height: 1920px;
 }	
 
 
@@ -53,10 +54,11 @@ background-position:center;
     text-decoration: none;
 	display: none;
 	margin-top: 20%;
+	margin-left: 40%;
+	width: 20%;
 }
 
-#nextturn {font-size: 10em; 
-	padding: 15px 32px;
+#nextturn {font-size: 20em; 
 display:none;
 
     
@@ -106,7 +108,7 @@ display:none;
 	margin-left: 45%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
-	display: none;
+	display: block;
 	
 	
 }

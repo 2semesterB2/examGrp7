@@ -12,7 +12,14 @@
     
 	<div class="h1">
 	 <h1>  RATE US  </h1> </div>
-	
+<button id="playagain" onclick="window.location.href='../players/players.php'">Play again</button>	
+			<form action="collect.php" method="post">
+				<Textarea Cols="50" Rows="8" id="oprTekst" name="question"></textarea> 
+				<br>
+				<br>
+				<input type="submit"  id="newAsked"  value="Send">
+			</form>
+		</article>
 <div class="stars">
   <form action="">
     <input class="star star-5" id="star-5" type="radio" name="star"/>

@@ -68,7 +68,7 @@
 	
 
 	
-	<button id="leader-button">Next</button>
+	<button id="leader-button" onclick="window.location.href='../rateus/rateus.php'">Next</button>
 
 	</section>
 	<section  id="buttonNext">
