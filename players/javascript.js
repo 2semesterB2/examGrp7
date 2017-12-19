@@ -37,13 +37,11 @@ onclick sætte det i gang
 funktion næste spiller sæt spillet i gang igen
 */
 function næstespiller(sc){
-	console.log(playernumber+"næstespill"+huskPlayernumber+'******');
 	spillerscore[playernumber]=sc;
 	playernumber=playernumber-1;
 	if (playernumber==0){
 		$('#game').hide();
 		$('#leader').show();
-		console.log('pnpnpn'+huskPlayernumber+'wwwwwwwwww');
 		for(i=1; i<(huskPlayernumber); i++){
 			$('#leader').append('<p>Player '+(i)+': '+spillerscore[i]+' points</p>');
 			
@@ -51,7 +49,7 @@ function næstespiller(sc){
 		
 		
 	} else {
-		$('#visScore').html(sc);	
+		$('#visScore').html(sc);
 		$('#game').hide();
 		$('#buttonNext').show();
 		
@@ -62,7 +60,6 @@ function næstespiller(sc){
 
 
 function enspiller(aktueltnr){
-	console.log(playernumber);
 var antalklik=0;
 var score=0;
 var nummer3=setInterval(function(){
@@ -76,7 +73,6 @@ clearInterval(nummer3);
 antalklik=antalklik+1;
 	$('#3').off('click');
 	if(antalklik>3){
-		console.log(' Your Score: ' +score);
 		næstespiller(score);
 	}
 		
@@ -96,7 +92,6 @@ clearInterval(nummer4);
 	antalklik=antalklik+1;
 	$('#4').off('click');
 	if(antalklik>3){
-		console.log(' Your Score: ' +score);
 		næstespiller(score);
 	}  });
 
@@ -112,7 +107,6 @@ clearInterval(nummer5);
 	antalklik=antalklik+1;
 $('#5').off('click');
 	if(antalklik>3){
-		console.log(' Your Score: ' +score);
 		næstespiller(score);
 		
 	}  });
@@ -132,7 +126,6 @@ clearInterval(nummer6);
 	antalklik=antalklik+1;
 $('#6').off('click');
 	if(antalklik>3){
-		console.log(' Your Score: ' +score);
 		næstespiller(score);
 	}  });
 return;
