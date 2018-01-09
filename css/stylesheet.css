@@ -1,5 +1,5 @@
 @charset "utf-8";
-body, html {background-image: url(../img/background_index.jpg);
+body{background-image: url(../img/background_index.jpg);
 	font-family: roboto;
   	background-image: url(../img/background_index.jpg);
 	background-repeat:no-repeat;
@@ -33,10 +33,11 @@ a:hover {
   text-decoration: none;}
 a:active {
   text-decoration: none;}
-h1{
+#introtext{
 		text-align: center;
-	color: beige;
+	color: #34b0ca;
 	font-size: 2em;
+	margin-top: 10%;
 	
 	
 }
