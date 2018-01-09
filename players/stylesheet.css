@@ -49,13 +49,13 @@ background-position:center;
 	
 }
 #buttonNext{
-	background-color: #4CAF50;
     text-align: center;
     text-decoration: none;
 	display: none;
 	margin-top: 20%;
-	margin-left: 40%;
-	width: 20%;
+	margin-left: 24%;
+	width: 50%;
+	font-size: 3em;
 }
 
 #nextturn {font-size: 20em; 
