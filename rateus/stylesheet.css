@@ -22,7 +22,6 @@ background-size:cover;}
     margin: 30% 48%;
     cursor: pointer;
 }
-.button2 {background-color: #34b0ca;} /* Blue */
 
 
 div.stars {
@@ -62,7 +61,7 @@ label.star:before {
   content: '\f006';
   font-family: FontAwesome;
 }
-#playagain { background-color: #4CAF50;
+#playagain { background-color: #34b0ca;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -75,7 +74,7 @@ label.star:before {
 	margin-bottom: 10%;
 	display: block; }
 #knap {
-	background-color: #4CAF50;
+	background-color: #34b0ca;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -83,7 +82,7 @@ label.star:before {
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
-	margin-left: 45%;
+	margin-left: 43%;
 	margin-top:2.5%;
 	margin-bottom: 2.5%;
 	display: block; 
