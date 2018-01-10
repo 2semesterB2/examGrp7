@@ -56,6 +56,7 @@ background-position:center;
 	margin-left: 24%;
 	width: 50%;
 	font-size: 3em;
+	color: #34b0ca;
 }
 
 #nextturn {font-size: 20em; 
@@ -74,7 +75,7 @@ display:none;
 }	
 #gametext {
 	font-size:3em;
-	color: #FFFFFF;
+	color: #34b0ca;
 	text-align:center;
 }
 
@@ -97,7 +98,7 @@ display:none;
 }
 
 #leader-button {
-    background-color: #4CAF50;
+    background-color: #34b0ca;
     border: none;
     color: white;
     padding: 15px 32px;
