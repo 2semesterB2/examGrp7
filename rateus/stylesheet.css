@@ -73,7 +73,7 @@ label.star:before {
 	margin-top:2.5%;
 	margin-bottom: 10%;
 	display: block; }
-#knap {
+#knap { /* Submit knap*/ 
 	background-color: #34b0ca;
     border: none;
     color: white;

@@ -6,7 +6,7 @@ body {
 	background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
-	min-height: 1920px;
+	min-height: 1920px; /* vi havde problemer med at gøre det respontivt, så vi tog bare et højt tal, så det ca. passede*/ 
 }	
 
 
@@ -16,7 +16,7 @@ background-position:center;
     color: black;
     padding: 10px 24px;
     float: left;
-	font-size: 10em;
+	font-size: 10em; /* 10 gange størrere end hvad den er sat til */ 
 	width: 70%;
 	margin-left: 14%;
 	margin-top:2.5%;
@@ -27,14 +27,14 @@ background-position:center;
 #player-group2 button{
 	
     background-color: #34B0CA;
-    border: 1px solid black;
+    border: 1px solid black; /* pga. border er i px så er det her problemet ligger med respontivitet.( dette og fontsize) --> løsning kunne muligvis være andet end en button tag*/ 
     color: black;
     float: left;
-	font-size: 1500%;
+	font-size: 1500%; /* den måde satte størrelsen på */ 
 	width: 50%;
 	text-align: center;
 	text-decoration: none;
-	text-indent: -9999px;
+	text-indent: -9999px; /* Det gør fjerner tallene i vores buttom */ 
 }
 #3 {}
 #4 {}
@@ -112,6 +112,9 @@ display:none;
 	display: block;
 	
 	
+}
+#llh1 {
+	color: #34B0CA;
 }
 
 

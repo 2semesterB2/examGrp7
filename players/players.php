@@ -11,7 +11,7 @@
 </head>
 <body>
 	<section id="players">
-
+<!-- section har vi brugt, så vi kan skjule dem og vis dem(display none;)  --> 
 <div class="choose-players">
 <h1> Choose numbers of players</h1>
 	</div>
@@ -30,7 +30,7 @@
 	<section id="rateus">
 <div class="h1">
 	 <h1 id="Leader-line">  RATE US  </h1> </div>
-	
+	<!-- Dette bliver ikke brugt, men er det vi gerne ville have(php med stjerner)  --> 
 <div id="stars">
   <form action="">
     <input class="star star-5" id="star-5" type="radio" name="star"/>
@@ -56,15 +56,15 @@
  <button id="4">4</button>
   <button id="5">5</button>
  <button id="6">6</button>
-<div id="text">
+<div id="text"> <!-- bliver ikke brugt  --> 
 <h1> Press the green color</h1>
-	<h2> 5/5 tries left </h2>
+	<h2> 5/5 tries left </h2> 
 	</div>
 </div>
 	</section>
 	<section id="leader">
 	
-    <h1>Leaderboard list </h1>
+    <h1 id="llh1">Leaderboard list </h1>
 	
 
 	
